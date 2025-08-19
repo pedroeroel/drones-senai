@@ -31,6 +31,7 @@ body a {
 
 button { 
     background-color: var(--color-quaternary);
+    justify-content: center;
     display: flex;
     color: var(--text-primary);
     border: none;
@@ -250,10 +251,12 @@ section.drone-picture img {
 }
 
 .reviews-section {
-    background-image: url('src/media/img3.jpg');
+    background-image: url('../media/img3.jpg');
+    background-color: rgba(30, 29, 29, 0.7);
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-    color: var(--text-secondary);
+    color: var(--text-primary);
 }
 
 .reviews-section h2 {
