@@ -98,7 +98,7 @@ header .v-rule {
 /* main */
 
 section {
-    padding: 1.5rem 0.5rem;
+    padding: 2rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,26 +217,25 @@ section.drone-picture img {
     width: 100%;
     background-color: var(--color-secondary);
     padding: 1.5rem 1rem;
-    gap: 1rem;
+    gap: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     min-height: 220px;
     transition: box-shadow 0.3s;
 }
 
 .grid-card h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
     color: var(--text-primary);
 }
 
 .grid-card p {
     color: #bdbdbd;
-    font-size: 0.95rem;
+    font-size: 1rem;
 }
 
 /* Reviews and Contact Sections */
