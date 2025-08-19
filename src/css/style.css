@@ -97,6 +97,12 @@ header .v-rule {
 
 /* main */
 
+main {
+    gap: 5rem;
+    display: flex;
+    flex-flow: column;
+}
+
 section {
     padding: 2rem 0.5rem;
     display: flex;
@@ -487,6 +493,12 @@ section.drone-picture img {
     header .v-rule {
         display: block;
     }
+
+    
+main {
+    display: inline;
+}
+
     section {
         padding: 3rem;
         gap: 2rem;
